@@ -3,6 +3,7 @@ require('./react-ujs');
 
 import * as features from 'tenon-features';
 import {
+  Breadcrumbs,
   ResourceIndex,
   ResourceIndexComponents,
   StandaloneList
@@ -21,6 +22,8 @@ const Tenon = {
     'Root': ResourceIndex,
     'StandaloneList': StandaloneList
   },
+
+  reactComponents: { Breadcrumbs },
 
   modalHandlers: features.modalHandlers,
 
