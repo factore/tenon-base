@@ -2,7 +2,11 @@
 require('./react-ujs');
 
 import * as features from 'tenon-features';
-import { ResourceIndex, StandaloneList } from 'tenon-components';
+import {
+  ResourceIndex,
+  ResourceIndexComponents,
+  StandaloneList
+} from 'tenon-components';
 
 // Make jQuery requests identify themselves as json
 $.ajaxSetup({
@@ -52,5 +56,7 @@ const Tenon = {
     window.ReactRailsUJS.mountComponents();
   }
 };
+
+Tenon.RI = { ...Tenon.RI, ...ResourceIndexComponents };
 
 export default Tenon;
