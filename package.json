@@ -1,6 +1,6 @@
 {
   "name": "tenon-base",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Front-end code required to run Tenon 2.x",
   "main": "./lib/index.js",
   "scripts": {
@@ -18,9 +18,9 @@
   "homepage": "https://github.com/factore/tenon-js#readme",
   "peerDependencies": {
     "react": ">=15.3.0",
-    "tenon-components": "^2.1.0",
-    "tenon-features": "^2.1.0",
-    "tenon-scss": "^2.1.0"
+    "tenon-components": "^2.1.1",
+    "tenon-features": "^2.1.1",
+    "tenon-scss": "^2.1.1"
   },
   "dependencies": {
     "babel-polyfill": "^6.7.4",
